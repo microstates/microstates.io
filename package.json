@@ -1,5 +1,5 @@
 {
-  "name": "bigtest.js.org",
+  "name": "microstates.io",
   "private": true,
   "scripts": {
     "build": "webpack --env.production --bail -p",

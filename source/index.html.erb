@@ -1,25 +1,25 @@
 <section class="home-section home-hero">
   <h1 class="home-hero-logo">
-    <%= image_tag 'logo.svg', alt: 'BigTest' %>
+    <%= image_tag 'logo.svg', alt: 'Microstates' %>
   </h1>
 
   <h2 class="home-hero-tagline">
     <%= no_widow(
-      "A Suite of JavaScript libraries and framework extensions to help " +
-      "you answer the question:",
+      "A functional runtime type system designed to challenge " +
+      "you to answer the question:",
     ) %>
 
     <em>
-      <%= no_widow 'Does my application work in real life?' %>
+      <%= no_widow 'When was the last time you had fun working with state?' %>
     </em>
   </h2>
 
   <div class="home-hero-cta">
-    <%= link_to 'Start Testing Big', '/guides/getting-started.html', {
+    <%= link_to 'Start Microstating', '/guides/getting-started.html', {
       class: 'btn btn--secondary'
     } %>
 
-    <%= link_to 'Chat on Gitter', 'https://gitter.im/bigtestjs', {
+    <%= link_to 'Chat on Gitter', 'https://gitter.im/microstates', {
       class: 'btn btn--primary btn--hollow'
     } %>
   </div>
@@ -39,7 +39,7 @@
 </section>
 
 <section class="home-section home-users">
-  <h2>Who's Using BigTest?</h2>
+  <h2>Who's Using Microstates?</h2>
 
   <ul class="home-users-list">
     <% data.home.users.each do |user| %>

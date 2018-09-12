@@ -1,22 +1,22 @@
-intro: Big Questions Need Big Tests
+intro: Simple & Fun State Management
 buckets:
-  - title: Real Applications
+  - title: Composability
     content: |
-      The surest way to know if an application is going to work is to actually run it. Big tests boot the entire application before every testcase.
+      Composable type system.
 
-  - title: Real Browsers
+  - title: Immutability
     content: |
-      Does your appication run in a browser? Then if a test is going to measure whether it works or not, it also needs to run in a real browser that a real user might use, and it should dispatch real UI events against a real DOM.
+      Pure immutable state transitions without writing reducers.
 
-  - title: Real Asynchrony
+  - title: Elegence
     content: |
-      Testing big is hard because there can be hundreds if not thousands of things happening concurrently inside your application; including user interactions.
+      Most elegant way to express state machines.
 
 users:
   - name: The Frontside
     logo: images/users/frontside.svg
     website: https://frontside.io
 
-  - name: FOLIO
-    logo: images/users/folio.png
-    website: https://folio.org
+  # - name: FOLIO
+  #   logo: images/users/folio.png
+  #   website: https://folio.org

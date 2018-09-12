@@ -1,6 +1,6 @@
 references:
   defaults: &defaults
-    working_directory: ~/bigtest.js.org
+    working_directory: ~/microstates.io
     docker:
       - image: circleci/ruby:2.4-node
         environment:
@@ -20,7 +20,7 @@ references:
       persist_to_workspace:
         root: ~/
         paths:
-          - bigtest.js.org
+          - microstates.io
           - .ssh
 
 version: 2
