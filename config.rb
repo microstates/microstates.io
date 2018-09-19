@@ -5,9 +5,9 @@ require './lib/api_docs'
 activate :directory_indexes
 activate :formatting_helpers
 activate :api_docs, packages: {
-  'convergence' => '@bigtest/convergence',
-  'interactor' => '@bigtest/interactor',
-  'react' => '@bigtest/react'
+  # 'convergence' => '@bigtest/convergence',
+  # 'interactor' => '@bigtest/interactor',
+  # 'react' => '@bigtest/react'
 }
 
 activate :autoprefixer do |prefix|

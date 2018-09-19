@@ -1,4 +1,4 @@
-# https://microstates.io
+# [microstates.js](https://github.com/microstates/microstates.js)
 [![CircleCI](https://circleci.com/gh/microstates/microstates.io.svg?style=svg)](https://circleci.com/gh/microstates/microstates.io)
 
 This is the source code for the all new Microstates website
