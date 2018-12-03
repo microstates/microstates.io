@@ -1,5 +1,5 @@
 # [microstates.js](https://github.com/microstates/microstates.js)
-[![CircleCI](https://circleci.com/gh/microstates/microstates.io.svg?style=svg)](https://circleci.com/gh/microstates/microstates.io)
+[![CircleCI](https://circleci.com/gh/microstates/microstates.io.svg?style=svg)](https://circleci.com/gh/microstates/microstates.io) [![Greenkeeper badge](https://badges.greenkeeper.io/microstates/microstates.io.svg)](https://greenkeeper.io/)
 
 This is the source code for the all new Microstates website
 
